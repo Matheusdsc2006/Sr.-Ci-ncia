@@ -1,0 +1,167 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(110,0,255,1) 0%, rgba(239,227,255,1) 5%);
+}
+
+header{
+    background-color: white;
+    height: 12vh;
+    box-shadow: 0px 1px 4px rgba(137, 67, 230, 1);
+}
+
+.cabeçario{
+    display: flex;
+    justify-content: start;
+}
+
+.logo{
+    margin-top: 7%;
+    width: 210px;
+}
+
+.bola_roxa1{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    bottom: 150px;
+    left: -70px;
+    z-index: -1;
+}
+
+.bola_roxa2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: 50px;
+    right: 70px;
+    z-index: -1;
+}
+
+.titulo_cadastro{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cadastro{
+    display: flex;
+    background-color: white;
+    width: 800px;
+    height: 460px;
+    margin-top: 10px;
+    flex-direction: column;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 5px rgba(137, 67, 230, 1);
+}
+
+.input_box{
+    margin-bottom: 1.1rem;
+}
+
+.input_box input{
+    margin: 0.2rem 0px;
+    padding: 0.4rem 1rem;
+    width: 425px;
+}
+
+.input_box input::placeholder{
+    color: rgba(137, 67, 230, 1);
+    opacity: 0.7;
+}
+
+label{
+    color: rgba(137, 67, 230, 1);
+    font-weight: bold;
+    font-size: 90%;
+}
+
+form{
+    margin-top: 3.5%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+.info p{
+    margin-right: 7px;
+    margin-top: 12px;
+    margin-left: 130px;
+}
+
+.info a{
+    text-decoration: none;
+    color: rgba(110, 0, 255, 1);
+    margin-right: 95px;
+    margin-top: 12px;
+}
+
+.info a:hover{
+    color: rgba(137, 67, 230, 1);
+}
+
+.info button{
+    background-color: rgba(137, 67, 230, 1);
+    color: white;
+    width: 160px;
+    height: 35px;
+    border: none;
+    transition: 2s;
+}
+
+.info button:hover{
+    background-color: rgba(110, 0, 255, 1);
+    transform: scale(1.1);
+}
+
+.alinhamento_footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.alinhamento_elementos{
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.alinhamento_elementos p{
+    margin-top: 20px;
+    opacity: 0.5;
+    max-width: 220px;
+}
+
+footer figure img{
+    margin-top: 50px;
+}
+
+.linha{
+    margin-top: 50px;
+    background-color: white;
+    height: 0.5px;
+    width: 1120px;
+    opacity: 0.5;
+}
+
+.logo_branca{
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 500px;
+}
+
+footer{
+    background-color: rgba(43, 36, 51, 1);
+    height: 400px;
+}
